@@ -1,0 +1,24 @@
+## LAN
+lan_port = 12777
+
+## CAM
+cam_device = /dev/video10
+cam_width = 640
+cam_height = 480
+#bit per pixel
+cam_bpp = 3
+#JCS_UNKNOWN=0		/* error/unspecified */
+#JCS_GRAYSCALE=1	/* monochrome */
+#JCS_RGB=2		/* red/green/blue */
+#JCS_YCbCr=3		/* Y/Cb/Cr (also known as YUV) */
+#JCS_CMYK=4		/* C/M/Y/K */
+#JCS_YCCK=5		/* Y/Cb/Cr/K */
+cam_color_space = 3
+cam_size_force = 1
+
+## DONUT
+donut_center_X = 368
+donut_center_y = 255
+donut_in_radius = 88
+donut_out_radius = 175
+

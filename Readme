@@ -1,0 +1,31 @@
+GalaxyView V1.0
+2014 Feb 13
+Made by SaeJong-Lee
+
+1. What is this?
+GalaxyView is a high technology IP camera on EXYNOS4412.
+This program is made for 1st EXYNOS SOFTWARE CONTEST.
+It tested on ODROID U2 official Ubuntu 13.10 for arm.
+360degree lense + USB camera is required.
+
+2. How to use.
+	A) Set config.txt On ODROID U2 ubuntu.
+		[lan_port] Set number wish to open the port.
+		[cam_device] Set device path. ex>/dev/video10
+		[cam_width] Set camera width.
+		[cam_height] Set camera height.
+		[cam_bpp] Set byte per pixel. This version support only 3 bpp.
+		[cam_color_space] Set color space. This version support only YCbCr. Parameter number is 3.
+		[cam_size_force] Set size force. If set 0, camera setted by default.
+		[donut_center_x] Set X-axis center of donut image.
+		[donut_center_y] Set Y-axis center of donut image.
+		[donut_in_radius] Set inner radius pixel size from center.
+		[donut_out_radius] Set outter radius pixel size from center.
+	B) Execute galaxyview on ODROID U2.
+	C) Execute wclient on Windows.
+
+4. What will be..
+	Image quality improvement.
+	TCP/IP protocol add for image stream.
+	Variety color format support.
+	ETC..
